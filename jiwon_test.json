@@ -1,0 +1,29 @@
+{
+  "version": "1.0.16",
+  "name": "test_pancreas",
+  "description": "This demonstrates the JSON schema",
+  "datasets": [
+    {
+      "uid": "test",
+      "name": "test",
+      "files": [
+        {
+          "fileType": "obsEmbeddingUMAP.csv",
+          "url": "https://drive.google.com/file/d/15CYqC4rb0cc9U3ZNehvF0lIpbBdYE2Pk/view?usp=drive_link",
+          "coordinationValues": {
+            "obsType": "cell",
+            "embeddingType": "UMAP"
+          },
+          "options": {
+            "obsIndex": "cell_id",
+            "obsEmbedding": [
+              "UMAP_1",
+              "UMAP_2"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "initStrategy": "auto"
+}
